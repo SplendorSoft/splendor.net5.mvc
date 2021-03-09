@@ -61,7 +61,7 @@ namespace splendor.net5.mvc.implementers
         }
 
         [HttpGet]
-        public virtual async Task<IActionResult> GetAll()
+        public virtual async Task<IActionResult> All()
         {
             using (_service)
             {
